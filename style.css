@@ -54,3 +54,14 @@ h1,h2,h3{
 #experience a{
    color: white;
 }
+#hire{
+    background-color: var(--turquios);
+    color:var(--beige);
+    width: 400px;
+    text-align: center; 
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+#hire p:last-child{
+    margin-top: 1rem;
+}
