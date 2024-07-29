@@ -4,6 +4,7 @@
     --turquios:#6A8C69;
     --beige:#A8B545;
     --gold:#C2C0A6;
+    --limegreen:#9FC131;
 }
 html{
     box-sizing: border-box;
@@ -21,7 +22,10 @@ h1,h2,h3{
     margin:0;
 }
 #intro{
-    padding-bottom: 5rem;
+    padding-bottom: 4rem 1rem 5rem 1rem;
+    max-width: 1200px; 
+    margin: 0 auto;
+
 }
 #intro p{
     font-size: 1.5rem;
@@ -56,7 +60,6 @@ h1,h2,h3{
 }
 #hire{
     background-color: var(--turquios);
-    color:var(--beige);
     width: 400px;
     text-align: center; 
     margin: 0 auto;
@@ -64,4 +67,48 @@ h1,h2,h3{
 }
 #hire p:last-child{
     margin-top: 1rem;
+}
+.section-hire{
+    background-color: var(--turquios);
+}
+nav{
+    font-size: 80%;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--beige);
+    text-decoration: underline;
+    font-size: 1.4rem;
+   
+}
+nav li:first-child{
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.button{
+    background-color:var(--limegreen);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.button:hover{
+  color: white;
+  background: rgb(0,95,116);
+background: linear-gradient(90deg, rgba(0,95,116,1) 0%, rgba(167,189,22,1) 67%, rgba(255,207,0,1) 100%);
 }
