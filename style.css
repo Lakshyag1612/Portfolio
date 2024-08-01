@@ -74,16 +74,19 @@ h1,h2,h3{
 nav{
     font-size: 80%;
     padding: 1rem;
+    background-color: var(--cobalt);
 }
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     margin-right: 2rem;
+   
 }
 nav a{
     color: white;
@@ -97,7 +100,8 @@ nav a:hover{
    
 }
 nav li:first-child{
-    flex-grow: 1;
+   
+    flex-basis: 100%;
     font-size: 1.5rem;
     margin-left: 3rem;
 }
@@ -111,4 +115,18 @@ nav li:first-child{
   color: white;
   background: rgb(0,95,116);
 background: linear-gradient(90deg, rgba(0,95,116,1) 0%, rgba(167,189,22,1) 67%, rgba(255,207,0,1) 100%);
+}
+.gradient-section{
+    height: 2px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    padding: 2rem;
+}
+@media (min-width: 600px){
+   nav li:first-child{
+    flex-grow: 1;
+    flex-basis: auto;
+  }
 }
