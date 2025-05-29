@@ -1,0 +1,48 @@
+.home {
+  background-color:transparent;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  padding: 40px;
+  background-size: cover;
+}
+
+.home-text h1 {
+  font-size: 48px;
+}
+
+.home-text span {
+  color: orange;
+}
+
+.home-text p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.about-btn {
+  margin: 20px 0;
+  padding: 12px 24px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.home-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: orange;
+  padding: 10px;
+}
