@@ -1,9 +1,19 @@
+/* navbar spans full width */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   background-color: transparent;
   border-bottom: 1px solid #ddd;
+}
+
+/* wrapper limits content width and centers it */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -15,6 +25,8 @@
   list-style: none;
   display: flex;
   gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links li {
