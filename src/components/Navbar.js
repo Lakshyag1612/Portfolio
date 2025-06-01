@@ -9,7 +9,7 @@ function Navbar() {
   <div className="wrapper">
     <div className="logo">
        <img src={logo} alt="Logo" className="logo-img" />
-    </div>
+     </div>
     <ul className="nav-links">
       {["Home", "About", "Skills", "Education", "Work", "Experience", "Contact"].map((item) => (
         <li key={item}>
